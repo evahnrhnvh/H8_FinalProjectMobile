@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.CheckedTextView - Make a Transfer</name>
+   <name>Button_Dashboard</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Make a Transfer</value>
+      <value>Dashboard</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>524</value>
+      <value>222</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[24,524][360,596]</value>
+      <value>[24,222][360,294]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -158,8 +158,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView[1]/android.support.v7.widget.LinearLayoutCompat[4]/android.widget.CheckedTextView[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.CheckedTextView[1]</value>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.CheckedTextView' and (@text = 'Make a Transfer' or . = 'Make a Transfer') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']</locator>
+   <locator>//*[@class = 'android.widget.CheckedTextView' and (@text = 'Dashboard' or . = 'Dashboard') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
