@@ -69,6 +69,10 @@ Mobile.tap(findTestObject('Login/Button_StripTiga'), 3)
 
 Mobile.tap(findTestObject('Menu-menu Strip Tiga/Button_Make a Deposit'), 3)
 
+Mobile.setText(findTestObject('Object Repository/Make Deposit/Stext_Amount Deposit'), '500000', 3)
+
+Mobile.tap(findTestObject('Object Repository/Make Deposit/Button_Deposit'), 3)
+
 Mobile.delay(3)
 
 // CLOSE APP
