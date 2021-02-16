@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Login/Button_Login'), 3)
 //ACCOUNT
 Mobile.tap(findTestObject('Login/Button_StripTiga'), 3)
 
-Mobile.tap(findTestObject('Object Repository/Menu-menu Strip Tiga/android.widget.CheckedTextView - Accounts'), 3)
+Mobile.tap(findTestObject('Menu-menu Strip Tiga/Button_Accounts'), 3)
 
 Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button Plus for Add Account'), 3)
 
@@ -67,7 +67,7 @@ Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stext
 
 Mobile.tap(findTestObject('Login/Button_StripTiga'), 3)
 
-Mobile.tap(findTestObject('Object Repository/Menu-menu Strip Tiga/android.widget.CheckedTextView - Make a Deposit'), 3)
+Mobile.tap(findTestObject('Menu-menu Strip Tiga/Button_Make a Deposit'), 3)
 
 Mobile.delay(3)
 
