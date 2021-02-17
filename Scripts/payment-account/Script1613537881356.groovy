@@ -14,10 +14,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-Mobile.startApplication('E:\\Folder_Vivi\\Trainning_Katalon\\FINALPROJECTS-201016-121328\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
-    true)
+Mobile.startApplication('E:\\Folder_Vivi\\Trainning_Katalon\\FINALPROJECTS-201016-121328\\FINAL PROJECTS\\MOBILE\\app-debug.apk',
+	true)
 
 Mobile.tap(findTestObject('Create Account/Button_CreateAccount'), 0)
 
@@ -45,8 +43,8 @@ Mobile.tap(findTestObject('Object Repository/payment/android.widget.Button - ADD
 
 Mobile.setText(findTestObject('Object Repository/payment/android.widget.EditText - Account Name'), 'nia', 0)
 
-Mobile.setText(findTestObject('Object Repository/payment/android.widget.EditText - Initial Balance (Optional)'), '10000', 
-    0)
+Mobile.setText(findTestObject('Object Repository/payment/android.widget.EditText - Initial Balance (Optional)'), '10000',
+	0)
 
 Mobile.tap(findTestObject('Object Repository/payment/android.widget.Button - ADD'), 0)
 
@@ -71,4 +69,5 @@ Mobile.scrollToText('Logout', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Login/Button_Logout'), 0)
 
 Mobile.closeApplication()
+
 
