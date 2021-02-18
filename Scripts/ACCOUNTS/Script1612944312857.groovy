@@ -42,7 +42,7 @@ Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button_AD
 
 Mobile.tap(findTestObject('Account/Input Add Account/Button_CANCEL'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Account/TView_Account Name M Fachri'), 'M Fachri')
+Mobile.verifyElementText(findTestObject('Account/TView_Account Name Dewit Dwi'), 'M Fachri')
 
 //LOGOUT
 Mobile.tap(findTestObject('Login/Button_StripTiga'), 0)
